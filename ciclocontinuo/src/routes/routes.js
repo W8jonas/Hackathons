@@ -1,13 +1,14 @@
 import React, {useState, useEffect} from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import {View, Image, Text} from 'react-native'
 
 import LoadingScreen from './Loading'
 import CreatingValue from '../screens/creatingValue/index'
+import LottieView from 'lottie-react-native';
 
 export default function App() {
 	const [loading, setLoading] = useState(true)
-	const [appValueShow, setAppValueShow] = useState(false)
+	// const [appValueShow, setAppValueShow] = useState(false)
 	
 	setTimeout(() => {
 		setLoading(false)
@@ -19,12 +20,16 @@ export default function App() {
 	// 		</View>
 	// 	</View>
 
+	const [appValueShow, setAppValueShow] = useState(false)
+    const _appValueShow = useSelector((state) => state.userState.app.appValueShow)
+	useEffect(()=>{setAppValueShow(_appValueShow)}, [_appValueShow])
+
 	return loading === true 
 		? <LoadingScreen/> 
 		: appValueShow === false
 			? <CreatingValue/> 
-			: <View>
-				<Text>aramariaria</Text>
+			: <View style={{flex:1, backgroundColor: '#fff'}}>
+				<LottieView source={require('../animations/finally.json')} autoPlay loop />
 			</View>
 
 	// return loading === true 
