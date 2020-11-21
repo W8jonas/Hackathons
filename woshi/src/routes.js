@@ -29,14 +29,31 @@ import { Button, Text, View } from 'react-native'
 
 import OnlineOffice from './screens/OnlineOffice'
 import Profile from './screens/Profile'
+import Header from './components/Header/index'
 
 export default function App() {
     return (
-      <NavigationContainer>
-        <Drawer.Navigator initialRouteName="Home">
-          <Drawer.Screen name="Escritório" component={OnlineOffice} />
-          <Drawer.Screen name="Perfil" component={Profile} />
-        </Drawer.Navigator>
-      </NavigationContainer>
+		<NavigationContainer>
+			<Drawer.Navigator initialRouteName="Home" screenOptions={{headerShown: false}}>
+			<Drawer.Screen 
+				name="Escritório" 
+				component={OnlineOffice}
+				options={{
+					headerShown: true, 
+					header: () => <Header/>
+				}}
+			/>
+
+			<Drawer.Screen 
+				name="Perfil" 
+				component={Profile}
+				options={{
+					headerShown: true, 
+					header: () => <Header/>
+				}}
+			/>
+			
+			</Drawer.Navigator>
+		</NavigationContainer>
     );
 }
