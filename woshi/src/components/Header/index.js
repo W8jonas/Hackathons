@@ -13,7 +13,6 @@ import { useNavigation } from '@react-navigation/native'
 
 import { Image, StyleSheet, View,} from 'react-native'
 
-
 const Header = () => {
     const navigation = useNavigation()
 
@@ -35,14 +34,17 @@ const Header = () => {
 const style = StyleSheet.create({
 	container: {
 		width: '100%', 
-		height: 50, 
+		backgroundColor: '#FFF',
+    height: 90, 
+    paddingTop: 40,
+    paddingHorizontal: 20,
 		flexDirection: 'row', 
-		justifyContent: 'space-around', 
+		justifyContent: 'space-between', 
 		alignItems: 'center', 
-		marginTop: 40,
-		borderBottomWidth: 1,
-		borderBottomColor: '#000',
-		elevation: 0
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    elevation: 10,
+    position: 'relative',
 	}
 })
 
