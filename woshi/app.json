@@ -20,6 +20,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.learni.woshi",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -27,6 +29,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Projeto desenvolvido durante o Hackathon da Semana da Informática em Viçosa.",
+    "githubUrl": "https://github.com/W8jonas/Hackathons/tree/master/woshi"
   }
 }

@@ -65,7 +65,7 @@ const CalendarScreen = () => {
                     style={{width: screenWidth*0.5, height: screenWidth*0.5, alignSelf: 'center'}}
                 >
                     {EVENTS_IN_RANDOM_DAY.map(item=>(
-                        <Event {...item}/>
+                        <Event key={item.id} {...item}/>
                     ))}
                 </ImageBackground>
             </View>
