@@ -26,7 +26,7 @@ const style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginLeft: -15,
-        marginTop: 15,
+        marginTop: 5,
         elevation: 5,
         // backgroundColor: '#00F300'
     }
