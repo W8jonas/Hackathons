@@ -8,7 +8,7 @@ import Close from '../../assets/icons/close.png'
 // components 
 
 // Functions
-import { RectButton } from 'react-native-gesture-handler'
+import { BorderlessButton } from 'react-native-gesture-handler'
 import { useNavigation } from '@react-navigation/native'
 
 import { Image, StyleSheet, View,} from 'react-native'
@@ -19,15 +19,15 @@ const Header = () => {
   	return (
 		<View style={style.container}>
 			<View style={style.headerContainer}>
-				<RectButton onPress={()=>navigation.openDrawer()}>
+				<BorderlessButton onPress={()=>navigation.openDrawer()}>
 					<Image source={HeaderImage} resizeMode={"contain"} style={{width: 25, height: 40}} />
-				</RectButton>
+				</BorderlessButton>
 
 				<Image source={Woshi} resizeMode={"contain"} style={{width: 100, height: 40}} />
 
-				<RectButton>
+				<BorderlessButton>
 					<Image source={Close} resizeMode={"contain"} style={{width: 25, height: 40}} />
-				</RectButton>
+				</BorderlessButton>
 			</View>
 		</View>
   	)
