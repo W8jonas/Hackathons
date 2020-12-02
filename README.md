@@ -5,6 +5,8 @@
 ## 1 - Ciclo Contínuo
 Projeto desenvolvido no hackasustentavel do Congonhas Inova.
 
+#### Data de realização: 19 de julho de 2020
+
 <details>
   <summary>Tecnologias/Libs usadas</summary>
   
@@ -35,6 +37,8 @@ O tema foi: MELHORAR A INTERAÇÃO ENTRE OS COLEGAS DE TRABALHO EM TEMPOS DE PAN
 
 #### Proposta do app: 
 App multiplataforma com foco totalmente na imersão de comunicação em grupos, modelo inspirado na comunicação que ocorre em "coworkings", com chats específicos para cada time e chats entre empresas e colaboradores de vários setores diferentes. Além de garantir rodadas de conversas randômicas (FunChat), inspiradas nas conversas tradicionais que ocorrem no ambiente presencial.
+
+#### Data de realização: 28 de novembro de 2020
 
 
 <details>
