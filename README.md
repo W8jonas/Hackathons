@@ -5,6 +5,22 @@
 ## 1 - Ciclo Contínuo
 Projeto desenvolvido no hackasustentavel do Congonhas Inova.
 
+<details>
+  <summary>Tecnologias/Libs usadas</summary>
+  
+ - React-Native
+ - JavaScript
+ - lottie-react-native
+ - async-storage
+ - react-native-svg
+ - redux
+ - redux-persist
+ - redux-thunk
+ - react-native-linear-gradient
+ - react-navigation stack
+
+</details>
+
 #### Fotos do app:
 ![](ciclocontinuo/demonstracao/Screenshot_0.png)  |  ![](ciclocontinuo/demonstracao/Screenshot_2.png) |  ![](ciclocontinuo/demonstracao/Screenshot_3.png)  |  ![](ciclocontinuo/demonstracao/demo.gif)  |
 :---------------:|:----------------:|:-----------------:|:-----------------:|
@@ -22,7 +38,7 @@ App multiplataforma com foco totalmente na imersão de comunicação em grupos, 
 
 
 <details>
-  <summary>Tecnologias usadas</summary>
+  <summary>Tecnologias/Libs usadas</summary>
   
  - React-Native
  - JavaScript
