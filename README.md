@@ -2,6 +2,41 @@
 
 <br/>
 
+## 3 - EdukAll
+EdukAll é uma plataforma digital que promove interação entre alunos presenciais e online para ser criado uma maior união entre as turmas através de gamificação, além de promover competições focadas em trabalho em equipe através de minigames com rankeamento de pontos. O fluxo simplificado e completo pode ser visto logo abaixo:
+
+<details>
+  <summary>Tecnologias/Libs usadas</summary>
+
+ - Javascript
+ - React-Native
+ - Expo
+ - Firebase
+ - Lottie animations
+ - React Navigation
+ - react native dotenv
+ - expo linear gradient
+ - expo font
+ - Firestore database
+
+</details>
+
+#### Fluxo simplificado:
+
+#### Tela de Login - Minigame em dupla - Tela com ranking
+
+![](edukaall/fotos_do_projeto/Login.png)  |  ![](edukaall/fotos_do_projeto/Desafio.png) |  ![](edukaall/fotos_do_projeto/Ranking.png)  |  
+:---------------:|:----------------:|:-----------------:|
+
+<br/>
+
+#### Fluxo completo de um usuário no app:
+
+![app completo](edukaall/fotos_do_projeto/fluxo-completo.gif)
+
+<br/>
+
+<br/>
 
 ## 2 - Woshi
 Projeto desenvolvido no Hackathon da XXV Semana de Informática da Faculdade Federal de Viçosa. 
@@ -34,6 +69,7 @@ App multiplataforma com foco totalmente na imersão de comunicação em grupos, 
 
 <br/>
 
+<br/>
 
 ## 1 - Ciclo Contínuo
 Projeto desenvolvido no hackasustentavel do Congonhas Inova.
