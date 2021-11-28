@@ -2,34 +2,6 @@
 
 <br/>
 
-## 1 - Ciclo Contínuo
-Projeto desenvolvido no hackasustentavel do Congonhas Inova.
-
-#### Data de realização: 19 de julho de 2020
-
-<details>
-  <summary>Tecnologias/Libs usadas</summary>
-  
- - React-Native
- - JavaScript
- - lottie-react-native
- - async-storage
- - react-native-svg
- - redux
- - redux-persist
- - redux-thunk
- - react-native-linear-gradient
- - react-navigation stack
-
-</details>
-
-#### Fotos do app:
-![](ciclocontinuo/demonstracao/Screenshot_0.png)  |  ![](ciclocontinuo/demonstracao/Screenshot_2.png) |  ![](ciclocontinuo/demonstracao/Screenshot_3.png)  |  ![](ciclocontinuo/demonstracao/demo.gif)  |
-:---------------:|:----------------:|:-----------------:|:-----------------:|
-
-<br/>
-<br/>
-
 
 ## 2 - Woshi
 Projeto desenvolvido no Hackathon da XXV Semana de Informática da Faculdade Federal de Viçosa. 
@@ -60,4 +32,33 @@ App multiplataforma com foco totalmente na imersão de comunicação em grupos, 
 ![](woshi/screenshoots/Screenshot_4.png)  |  ![](woshi/screenshoots/Screenshot_5.png) |  ![](woshi/screenshoots/Screenshot_6.png)  | 
 :---------------:|:----------------:|:-----------------:|
 
+<br/>
+
+
+## 1 - Ciclo Contínuo
+Projeto desenvolvido no hackasustentavel do Congonhas Inova.
+
+#### Data de realização: 19 de julho de 2020
+
+<details>
+  <summary>Tecnologias/Libs usadas</summary>
+  
+ - React-Native
+ - JavaScript
+ - lottie-react-native
+ - async-storage
+ - react-native-svg
+ - redux
+ - redux-persist
+ - redux-thunk
+ - react-native-linear-gradient
+ - react-navigation stack
+
+</details>
+
+#### Fotos do app:
+![](ciclocontinuo/demonstracao/Screenshot_0.png)  |  ![](ciclocontinuo/demonstracao/Screenshot_2.png) |  ![](ciclocontinuo/demonstracao/Screenshot_3.png)  |  ![](ciclocontinuo/demonstracao/demo.gif)  |
+:---------------:|:----------------:|:-----------------:|:-----------------:|
+
+<br/>
 <br/>
